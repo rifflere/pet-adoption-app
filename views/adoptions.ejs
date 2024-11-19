@@ -5,9 +5,14 @@
 </head>
 <body>
     <h1>Pet Adoptions</h1>
-    <%= details.type %>
+    <p>You ordered
     <%= details.quantity %>
     <%= details.color %>
-
+    <% if (details.quantity == 1) { %>
+        <%= details.type %>
+    <% } else { %>
+        <%= details.type %>s
+    <% } %>
+    </p>
 </body>
 </html>
