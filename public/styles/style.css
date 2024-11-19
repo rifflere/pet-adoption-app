@@ -1,0 +1,27 @@
+body, button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(47, 46, 46);
+}
+
+button {
+    background-color: rgb(135, 69, 69);
+    color: white;
+    border: 1px solid white;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+
+main {
+    background-color: beige;
+    box-shadow: 10px 15px 15px 3px rgb(135, 69, 69);
+    border-radius: 0.5em;
+    margin: 2em;
+    padding: 0.5em;
+    justify-items: center;
+    border: 3px solid white;
+}
+
+label {
+    display:block;
+    margin: 1em;
+}
