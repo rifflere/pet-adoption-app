@@ -11,7 +11,7 @@ const PORT = 3000;
 const pool = mariadb.createPool({
     host: 'localhost',
     user: 'root',
-    password: 'Penguin05!',
+    password: '',
     database: 'pets'
 });
 
