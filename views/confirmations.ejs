@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoptions</title>
+</head>
+<body>
+    <h1>Pet Adoptions</h1>
+    <p>You ordered
+    <%= details.quantity %>
+    <%= details.color %>
+    <% if (details.quantity == 1) { %>
+        <%= details.type %>
+    <% } else { %>
+        <%= details.type %>s
+    <% } %>
+    </p>
+
+    <a href="/adoptions">View adoptions</a>
+</body>
+</html>
